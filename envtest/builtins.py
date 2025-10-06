@@ -5,7 +5,7 @@ from pandas import DataFrame
 
 
 
-__all__ = ['rand_array', 'smooth_image', 'my_mat_solve']
+__all__ = ['rand_array', 'smooth_image', 'my_mat_solve', 'random_dataframe']
 
 
 def rand_array(shape):
