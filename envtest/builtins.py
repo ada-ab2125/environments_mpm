@@ -1,6 +1,7 @@
 import numpy as np
 from scipy.ndimage import gaussian_filter
 from scipy import misc
+from pandas import DataFrame
 
 
 
@@ -15,3 +16,7 @@ def smooth_image(a, sigma=1):
 
 def my_mat_solve(A, b):
     return A.inv()*b
+
+def random_dataframe(rows, cols):
+    data = np.random.rand(rows, cols)
+    return DataFrame(data)
